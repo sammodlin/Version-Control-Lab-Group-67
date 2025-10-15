@@ -4,7 +4,7 @@
 // does "something"
 
 name = input("what is your name?")
-color = input("What's your favorite color? ")
+color = input("What's your favorite color? ").lower()
 
 colorOutput = {
     "blue": f"Good choice {name}! Blue is a wonderful color.",
@@ -15,3 +15,8 @@ colorOutput = {
     "black": "",
     "white": ""
 }
+
+if color in colorOutput:
+    print(colorOutput[Color])
+else:
+    print(f"bruh")
