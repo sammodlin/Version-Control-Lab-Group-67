@@ -19,9 +19,7 @@ colorOutput = {
 
 colorMeaning = colorOutput.get(color.lower())
 
-print(f"\nHi {name}! People who love {color} are often {colorMeaning}.")
-
 if color in colorOutput:
-    print(colorOutput[color])
+    print(f"\nHi {name}! People who love {color} are often {colorMeaning}.")
 else:
     print(f"bruh")
