@@ -7,13 +7,13 @@ name = input("what is your name?")
 color = input("What's your favorite color? ").lower()
 
 colorOutput = {
-    "blue": f"Good choice {name}! Blue is a wonderful color.",
+    "blue": "calm and collected",
     "red": "bold, passionate, and energetic.",
-    "green": "balanced, grounded, and has a strong connection to nature and growth.",
-    "yellow": "optimistic, cheerful, and energetic person.",
+    "green": "balanced, grounded, and have a strong connection to nature and growth.",
+    "yellow": "optimistic, cheerful, and energetic.",
     "purple": "creative, imaginative, and a little mysterious.",
     "orange": "optimistic, energetic, and social.",
-    "black": "power, elegance, and sophistication. ",
+    "black": "powerful, elegant, and sophisticated. ",
     "white": "organized, independent, and logical."
 }
 
