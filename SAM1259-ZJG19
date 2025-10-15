@@ -8,13 +8,16 @@ color = input("What's your favorite color? ").lower()
 
 colorOutput = {
     "blue": f"Good choice {name}! Blue is a wonderful color.",
-    "red": "",
-    "green": "",
-    "yellow": "",
-    "purple": "",
-    "black": "",
-    "white": ""
+   "red": "bold, passionate, and energetic.",
+    "green": "balanced, grounded, and has a strong connection to nature and growth.",
+    "yellow": "optimistic, cheerful, and energetic person.",
+    "purple": "creative, imaginative, and a little mysterious.",
+    "orange": "optimistic, energetic, and social.",
+    "black": "power, elegance, and sophistication. ",
+    "white": "organized, independent, and logical."
 }
+
+print(f"\nHi {name}! People who love {color} are often {colorOutput}.")
 
 if color in colorOutput:
     print(colorOutput[Color])
