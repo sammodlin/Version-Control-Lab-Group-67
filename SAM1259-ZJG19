@@ -17,7 +17,9 @@ colorOutput = {
     "white": "organized, independent, and logical."
 }
 
-print(f"\nHi {name}! People who love {color} are often {colorOutput}.")
+colorMeaning = colorOutput.get(color.lower())
+
+print(f"\nHi {name}! People who love {color} are often {colorMeaning}.")
 
 if color in colorOutput:
     print(colorOutput[Color])
