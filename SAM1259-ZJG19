@@ -3,6 +3,6 @@
 // Take some other input
 // does "something"
 
-name = str(input("what is your name?"))
+name = input("what is your name?")
 color = input("What's your favorite color? ")
 
