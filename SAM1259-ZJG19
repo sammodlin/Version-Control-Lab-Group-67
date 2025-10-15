@@ -22,4 +22,4 @@ colorMeaning = colorOutput.get(color.lower())
 if color in colorOutput:
     print(f"\nHi {name}! People who love {color} are often {colorMeaning}")
 else:
-    print(f"bruh")
+    print(f"That isn't in our list of colors. Maybe try being less specific?")
