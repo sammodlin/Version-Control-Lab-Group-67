@@ -7,7 +7,7 @@ name = input("what is your name?")
 color = input("What's your favorite color? ")
 
 colorOutput = {
-    "blue": "",
+    "blue": f"Good choice {name}! Blue is a wonderful color.",
     "red": "",
     "green": "",
     "yellow": "",
