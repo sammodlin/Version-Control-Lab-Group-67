@@ -16,10 +16,10 @@ colorOutput = {
     "white": "organized, independent, and logical."
 }
 
-colorMeaning = colorOutput.get(color.lower())
 
 while True:
     color = input("What's your favorite color? ").lower()
+    colorMeaning = colorOutput.get(color.lower())
     if color in colorOutput:
         print(f"\nHi {name}! People who love {color} are often {colorMeaning}")
         break
