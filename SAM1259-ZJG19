@@ -6,3 +6,12 @@
 name = input("what is your name?")
 color = input("What's your favorite color? ")
 
+colorOutput = {
+    "blue": "",
+    "red": "",
+    "green": "",
+    "yellow": "",
+    "purple": "",
+    "black": "",
+    "white": ""
+}
