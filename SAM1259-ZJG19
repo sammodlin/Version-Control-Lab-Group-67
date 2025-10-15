@@ -18,7 +18,7 @@ colorOutput = {
 
 colorMeaning = colorOutput.get(color.lower())
 
-While True:
+while True:
     color = input("What's your favorite color? ").lower()
     if color in colorOutput:
         print(f"\nHi {name}! People who love {color} are often {colorMeaning}")
