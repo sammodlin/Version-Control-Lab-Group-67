@@ -4,3 +4,5 @@ print("cheese")
 // does "something"
 
 name = str(input("what is your name?"))
+color = input("What's your favorite color? ")
+
