@@ -4,7 +4,6 @@
 ## does "something"
 
 name = input("what is your name?")
-color = input("What's your favorite color? ").lower()
 
 colorOutput = {
     "blue": "calm and collected",
@@ -19,7 +18,10 @@ colorOutput = {
 
 colorMeaning = colorOutput.get(color.lower())
 
-if color in colorOutput:
-    print(f"\nHi {name}! People who love {color} are often {colorMeaning}")
-else:
-    print(f"That isn't in our list of colors. Maybe try being less specific?")
+While True:
+    color = input("What's your favorite color? ").lower()
+    if color in colorOutput:
+        print(f"\nHi {name}! People who love {color} are often {colorMeaning}")
+        break
+    else:
+        print(f"That isn't in our list of colors. Maybe try being less specific?")
