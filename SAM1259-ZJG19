@@ -8,7 +8,7 @@ color = input("What's your favorite color? ").lower()
 
 colorOutput = {
     "blue": f"Good choice {name}! Blue is a wonderful color.",
-   "red": "bold, passionate, and energetic.",
+    "red": "bold, passionate, and energetic.",
     "green": "balanced, grounded, and has a strong connection to nature and growth.",
     "yellow": "optimistic, cheerful, and energetic person.",
     "purple": "creative, imaginative, and a little mysterious.",
