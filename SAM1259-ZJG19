@@ -1,7 +1,7 @@
 
-// Take a name input
-// Take some other input
-// does "something"
+## Take a name input
+## Take some other input
+## does "something"
 
 name = input("what is your name?")
 color = input("What's your favorite color? ").lower()
