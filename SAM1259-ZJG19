@@ -3,7 +3,7 @@
 ## Take some other input
 ## does "something"
 
-name = input("what is your name?")
+name = input("What is your name?")
 
 colorOutput = {
     "blue": "calm and collected",
